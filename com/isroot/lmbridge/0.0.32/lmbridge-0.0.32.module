@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.isroot",
+    "module": "lmbridge",
+    "version": "0.0.32",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lmbridge-0.0.32.aar",
+          "url": "lmbridge-0.0.32.aar",
+          "size": 100211,
+          "sha512": "9dc54ce27b950a1cad334f7e68e4f09846aef118ca1f5f54acff6d08db61e6b6673e8136daa5a4d1394629078eb2c226991423c31d157419d94fa8b55199600b",
+          "sha256": "4cc6347e6028a07bab55f3df595696346869b0edc0cb77d14c1ad279ce6950d0",
+          "sha1": "daafe92ecff0443274b36b6dbfc985a36179d538",
+          "md5": "25e0a758437d36ea620c2d92f38e9610"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.google.ai.edge.litertlm",
+          "module": "litertlm-android",
+          "version": {
+            "requires": "0.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lmbridge-0.0.32.aar",
+          "url": "lmbridge-0.0.32.aar",
+          "size": 100211,
+          "sha512": "9dc54ce27b950a1cad334f7e68e4f09846aef118ca1f5f54acff6d08db61e6b6673e8136daa5a4d1394629078eb2c226991423c31d157419d94fa8b55199600b",
+          "sha256": "4cc6347e6028a07bab55f3df595696346869b0edc0cb77d14c1ad279ce6950d0",
+          "sha1": "daafe92ecff0443274b36b6dbfc985a36179d538",
+          "md5": "25e0a758437d36ea620c2d92f38e9610"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "lmbridge-0.0.32-sources.jar",
+          "url": "lmbridge-0.0.32-sources.jar",
+          "size": 21045,
+          "sha512": "e999452239e80a7789f55182b52c87738480f2128f8f1c956871c525ad7a27c26e417542f12140b2e555bdce29658674c6093f47dc9e6e6db25cb3e7f29b06b7",
+          "sha256": "b7740600739aa213eff1814871547cebf18eb726d06dd2404550f7b5b8862a98",
+          "sha1": "bdf1107cd6f7cf1b46605c0aa6233a29da9a7cba",
+          "md5": "d640f66f2e6e4fe9280a04d03e36d894"
+        }
+      ]
+    }
+  ]
+}
